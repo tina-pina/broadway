@@ -1,3 +1,61 @@
-#copy, #navend {
-   display: inline-block;
-   margin-left: 10px;} 
+body {
+  font-family: helvetica;
+  text-align: center;
+}
+
+.navall h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.navall {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  opacity: 0.4;
+}
+
+#grey_cut {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  opacity: 0.4;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.navall li {
+  margin: 0 0 10px 0;
+}
+.navall li a {
+  font-size: 18px;
+  color: white;
+}
+
+#our_process h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#our_process h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#our_process p {
+  font-size: 14px;
+}
+
+footer {
+  text-align: left;
+  background-color: dimgrey;
+}
+
+#copyright {
+  display: inline;
+  font-size: 11px;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
